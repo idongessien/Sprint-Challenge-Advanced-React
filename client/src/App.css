@@ -31,3 +31,43 @@
     transform: rotate(360deg);
   }
 }
+
+h1{
+  text-align: center;
+}
+
+.playersList{
+  display: flex;
+  justify-content:space-between;  
+  flex-wrap: wrap;
+}
+
+.dark-mode__toggle {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  border: 3px solid black;
+  height: 40px;
+  padding: 0.3% 0.5%;
+  position: relative;
+  width: 80px;
+  margin: 1% auto;
+}
+.toggle {
+  background: rgba(0, 0, 0, 1);
+  border-radius: 50px;
+  border: 1px solid white;
+  height: 40px;
+  left: 3%;
+  position: absolute;
+  transition: 0.2s;
+  width: 40px;
+}
+
+.toggled {
+  left: 52px;
+}
+
+.dark-mode{
+  background: rgba(0,0,0,0.8);
+  color: white;
+}

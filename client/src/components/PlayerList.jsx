@@ -1,10 +1,10 @@
 import React from 'react';
 import Player from './Player'
-import darkMode from './darkMode'
+import useDarkMode from './useDarkMode'
 
 
 const PlayerList = (props) =>{
-    const [onDarkMode, setOnDarkMode] = darkMode();
+    const [onDarkMode, setOnDarkMode] = useDarkMode();
 
     return(
        <div>

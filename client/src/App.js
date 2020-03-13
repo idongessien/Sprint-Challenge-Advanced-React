@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import PlayerList from './components/PlayerList';
 import './App.css';
+import styled from 'styled-components';
 
 export default class App extends React.Component{
   constructor(props){
@@ -10,17 +11,6 @@ export default class App extends React.Component{
         player: []
   }
 }
-
-// [darkMode, setDarkMode] = useDarkMode();
-
-
-// toggleMode = () => {
-
-// this.setState({
-// darkMode:(!darkMode)
-// })
-
-// }
 
 componentDidMount(){ 
   this.getPlayers()  
