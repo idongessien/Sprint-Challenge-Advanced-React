@@ -2,11 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Playa = styled.div`
-    margin: 2%;
-    width: 20%;
-    background: rgba(25, 120, 200, 1);
+    margin: 1%;
+    width: 18%;
+    background: lightskyblue;
     border-radius: 10px;
     text-align: center;
+    font-weight: 300;
 `;
 
 const Player =(props) =>{
